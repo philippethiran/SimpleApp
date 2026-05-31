@@ -1,0 +1,47 @@
+installation:
+  version: 6.8.0
+  installDate: 2026-05-31T12:39:17.734Z
+  lastUpdated: 2026-05-31T12:39:17.734Z
+modules:
+  - name: core
+    version: 6.8.0
+    installDate: 2026-05-31T12:39:17.511Z
+    lastUpdated: 2026-05-31T12:39:17.732Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: bmm
+    version: 6.8.0
+    installDate: 2026-05-31T12:39:17.498Z
+    lastUpdated: 2026-05-31T12:39:17.733Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: tea
+    version: v1.19.0
+    installDate: 2026-05-31T12:39:17.661Z
+    lastUpdated: 2026-05-31T12:39:17.733Z
+    source: external
+    npmPackage: bmad-method-test-architecture-enterprise
+    repoUrl: https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise
+    channel: stable
+    sha: 8734d51f24071ddbcb3617390b5fcddb4128ef77
+  - name: bmb
+    version: v1.8.1
+    installDate: 2026-05-31T12:39:17.686Z
+    lastUpdated: 2026-05-31T12:39:17.734Z
+    source: external
+    npmPackage: bmad-builder
+    repoUrl: https://github.com/bmad-code-org/bmad-builder
+    channel: stable
+    sha: 3410d952eafe621f31fcdf4dd5efb2b06690a306
+  - name: automator
+    version: main
+    installDate: 2026-05-31T12:39:17.707Z
+    lastUpdated: 2026-05-31T12:39:17.734Z
+    source: external
+    npmPackage: bmad-story-automator
+    repoUrl: https://github.com/bmad-code-org/bmad-automator
+    channel: next
+    sha: 8176f31ea0b9042ae92a3a1e792b87f01c4a78e4
+ides: []
