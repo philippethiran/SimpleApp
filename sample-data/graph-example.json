@@ -1,0 +1,12 @@
+{
+  "nodes": [0, 1, 2, 3, 4],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 10},
+    {"from": 1, "to": 2, "weight": 15},
+    {"from": 0, "to": 3, "weight": 20},
+    {"from": 3, "to": 4, "weight": 8},
+    {"from": 2, "to": 4, "weight": 12},
+    {"from": 1, "to": 3, "weight": 25}
+  ],
+  "directed": false
+}

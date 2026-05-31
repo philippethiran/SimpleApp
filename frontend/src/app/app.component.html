@@ -1,0 +1,28 @@
+<main class="app">
+  <header>
+    <h1>Travel &amp; Flight Optimizer</h1>
+    <p>Upload a route graph, visualize it, then run Dijkstra or TSP.</p>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <app-upload (graphLoaded)="onGraphLoaded($event)" />
+      <app-path-finder
+        [graph]="graph"
+        (pathFound)="onPathFound($event)"
+      />
+      <app-tour-optimizer
+        [graph]="graph"
+        (tourFound)="onTourFound($event)"
+      />
+    </aside>
+
+    <section class="main">
+      <app-graph-view
+        [graph]="graph"
+        [highlightedPaths]="highlightedPaths"
+        [highlightedNodes]="highlightedNodes"
+      />
+    </section>
+  </div>
+</main>
